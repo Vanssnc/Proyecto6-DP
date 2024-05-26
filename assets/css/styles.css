@@ -1,15 +1,43 @@
+/* Tipografía */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+/* Barra de navegación */
 .navbar{
     background-color: #171a4a;
 }
+/* Secciones */
+section {
+    padding: 2rem 0;
+}
 
-.presentacion{
+h2 
+{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
     color: #171a4a;
 }
 
+/* Tarjetas */
+.card-title {
+    font-size: 1.25rem;
+}
+.card-title2 {
+    background-color: #5b7ecf89;
+    color: #ffffff;
+}
+.card-footer {
+    background-color: #96b4ff65;
+}
+.presentacion{
+    color: #171a4a;
+}
 .resumen{
     font-size: 110%;
 }
 
+/* Tarjeta información */
 .titulocard{
     background-color: #171a4a;
     color: aliceblue;
@@ -18,37 +46,31 @@
     background-color: #2f2c79;
     color: aliceblue;
 }
-
 .tituloprogramas{
     background-color: #5b7dcf;
     color: aliceblue;
     display: flex;
     justify-content: center;
 }
-
 .programas{
     background-color: #ffffff;
 }
-
 .division{
     background-color: #96b3ff
 }
-
 .tituloportafolio{
     color: #171a4a;
     display: flex;
     justify-content: center;
 }
 
-.card-title2{
-    background-color: #5b7ecf89;
-    color: #ffffff;
-}
-.card-footer{
-    background-color: #96b4ff65;
-}
-
 .box-footer{
     background-color: #171a4a;
     color: #ffffff;
+}
+/* Footer */
+footer {
+    background: #171a4a;
+    color: #ffffff;
+    padding: 1rem 0;
 }
